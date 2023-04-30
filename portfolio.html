@@ -5,89 +5,94 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
+<body class="body">
     <!-- шапка -->
-    <header class="top-line">
-        <nav>
-            <a href="./index.html">
-                <span>WEB</span>STUDIO
-            </a>
-                <ul>
-                    <li class=""><a href="./index.html">Studio</a></li>
-                    <li class=""><a href="./portfolio.html">Portfolio</a></li>
-                    <li class=""><a href="/">Contakts</a></li>
-                </ul>
-        </nav>            
-                <!--  -->
-                <address>
-                    <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-                    <a href="tel:+11(000)111-11-11">+11 (000) 111-11-11</a>
-                </address>
-    </header>
-    <section>
-        <h2>Button filters</h2>
-        <ul>
-            <li><button>All</button></li>
-            <li><button>Web Site</button></li>
-            <li><button>App</button></li>
-            <li><button>Design</button></li>
-            <li><button>Marketing</button></li>
+        <header class="header">
+            <!-- навігація сайту -->
+            <nav class="header-nav">
+                <a class="logo" href="./index.html"><span class="accent">WEB</span>STUDIO</a>
+                    <ul class="nav">
+                        <li class=""><a href="./index.html">Studio</a></li>
+                        <li class=""><a href="./portfolio.html">Portfolio</a></li>
+                        <li class=""><a href="./contakts.html">Contakts</a></li>
+                    </ul>
+            </nav>            
+                    <!-- контактні дані -->
+                    <address class="adress">
+                        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                        <a href="tel:+11(000)111-11-11">+11 (000) 111-11-11</a>
+                    </address>
+        </header>
+    <section class="filters">
+        <!-- кнопки фільтрації контенту -->
+        <h2 class="filters-title">Button filters</h2>
+        <ul class="filters-list">
+            <li class="filters-all">All</li>
+            <li class="filters-website">Web Site</li>
+            <li class="filters-app">App</li>
+            <li class="filters-design">Design</li>
+            <li class="filters-marketing">Marketing</li>
         </ul>
     </section>    
     <section>
-        <h2>Our projects</h2>
-        <ul>
+        <!-- наші проекти -->
+        <h2 class="projects">Our projects</h2>
+        <ul class="projects-list">
             <li>
-                <section>
+                <section class="projects-section">
                     <ul>
-                        <li><img src="./imadges/img11.jpg" alt="360">
-                           <h3>Banking App Interface Concept</h3>
-                           <p>App</p>
+                        <li class="projects-icons"><img src="./images/img11.jpg" alt="360">
+                           <h3 class="projects-title">Banking App Interface Concept</h3>
+                           <p class="projects-text">App</p>
                         </li>
-                        <li><img src="./imadges/img12.jpg" alt="360">
-                           <h3>Cashless Payment</h3>
-                           <p>Marketing</p>
+                        <li class="projects-icons"><img src="./images/img12.jpg" alt="360">
+                           <h3 class="projects-title">Cashless Payment</h3>
+                           <p class="projects-text">Marketing</p>
                         </li>
-                        <li><img src="./imadges/img13.jpg" alt="360">
-                           <h3>Meditaion App</h3>
-                           <p>App</p>
+                        <li class="projects-icons"><img src="./images/img13.jpg" alt="360">
+                           <h3 class="projects-title">Meditaion App</h3>
+                           <p class="projects-text">App</p>
                         </li>
                     </ul>
                 </section>
             </li>
             <li>
-                <section>
+                <section class="projects-section">
                     <ul>
-                        <li><img src="./imadges/img14.jpg" alt="360">
-                           <h3>Taxi Service</h3>
-                           <p>Marketing</p>
+                        <li class="projects-icons"><img src="./images/img14.jpg" alt="360">
+                           <h3 class="projects-title">Taxi Service</h3>
+                           <p class="projects-text">Marketing</p>
                         </li>
-                        <li><img src="./imadges/img15.jpg" alt="360">
-                           <h3>Screen Illustrations</h3>
-                           <p>Design</p>
+                        <li class="projects-icons"><img src="./images/img15.jpg" alt="360">
+                           <h3 class="projects-title">Screen Illustrations</h3>
+                           <p class="projects-text">Design</p>
                         </li>
-                        <li><img src="./imadges/img16.jpg" alt="360">
-                           <h3>Online Courses</h3>
-                           <p>Marketing</p>
+                        <li class="projects-icons"><img src="./images/img16.jpg" alt="360">
+                           <h3 class="projects-title">Online Courses</h3>
+                           <p class="projects-text">Marketing</p>
                         </li>
                     </ul>
                 </section>
             </li>
             <li>
-                <section>
+                <section class="projects-section">
                     <ul>
-                        <li><img src="./imadges/img17.jpg" alt="360">
-                           <h3>Instagram Stories Concept</h3>
-                           <p>Design</p>
+                        <li class="projects-icons"><img src="./images/img17.jpg" alt="360">
+                           <h3 class="projects-title">Instagram Stories Concept</h3>
+                           <p class="projects-text">Design</p>
                         </li>   
-                        <li><img src="./imadges/img18.jpg" alt="360">
-                           <h3>Organic Food</h3>
-                           <p>Web Site</p>
+                        <li class="projects-icons"><img src="./images/img18.jpg" alt="360">
+                           <h3 class="projects-title">Organic Food</h3>
+                           <p class="projects-text">Web Site</p>
                         </li>
-                        <li><img src="./imadges/img19.jpg" alt="360">
-                           <h3>Fresh Coffee</h3>
-                           <p>Web Site</p>
+                        <li class="projects-icons"><img src="./images/img19.jpg" alt="360">
+                           <h3 class="projects-title">Fresh Coffee</h3>
+                           <p class="projects-text">Web Site</p>
                         </li>
                     </ul>
                 </section>
@@ -95,11 +100,22 @@
         </ul>
 
     </section>
-    <footer>
-        <a href="./index.html">
-            <span>WEB</span>STUDIO
+    <!-- подвал -->
+    <footer class="footer">
+        <a class="footer-logo" href="./index.html">
+            <span class="accent">WEB</span>STUDIO
         </a>
-        <p>Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p> 
+        <!-- поштова адреса -->
+        <address class="address" lang="uk-ua">м. Київ,<br> Бульвар Лесі Українки, б. 26,<br> 4й поверх офіс 427</address>
+          <div>
+            <h3 class="social">Social media</h3>
+            <ul class="footer-nav">
+                <li><a href=""><img src="./images/instagram-2.svg" alt="instagram"></a></li>
+                <li><a href=""><img src="./images/facebook-2.svg" alt="facebook"></a></li>
+                <li><a href=""><img src="./images/twitter-2.svg" alt="twitter"></a></li>
+                <li><a href=""><img src="./images/linkedin-2.svg" alt="linkedin"></a></li>
+            </ul>
+          </div>
     </footer>
 </body>
 </html>
