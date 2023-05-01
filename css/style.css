@@ -6,6 +6,12 @@ html {
 *::before {
     box-sizing: inherit;
 }
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
 :root {
     --background-header: #ffffff;
     --cloud: #F4F4FD;
@@ -105,8 +111,14 @@ a {
 .advantage {
     outline: 1px solid red;
     width: 1128px;
-    margin: 120px 156px 0px;
+    margin-top: 120px;
+    margin-bottom: 0px;
     padding: 0;
+
+}
+.advantage h2, ul {
+    margin: 0px;
+    padding: 0px;
 
 }
 .advantage-list {
@@ -151,9 +163,8 @@ a {
     outline: 1px solid red;
     background-color: var(--background-body);
     margin-top: 120px;
-    margin-left: 156px;
-    margin-right: 156px;
     width: 1128px;
+    padding: 0px;
 }
 .doing >ul {
     margin: 0px;
@@ -172,6 +183,7 @@ a {
     color: var(--navy-blue);
 }
 .doing-list {
+    outline: 1px solid red;
     list-style: none;
     width: 360px;
 
@@ -260,7 +272,7 @@ a {
     background-color: var(--background-body);
     width: 1128px;
     padding: 0px;
-    margin: 120px 156px 0px;
+    margin-top: 120px;
 
 }
 .clients-title {
@@ -341,8 +353,13 @@ a {
     margin-bottom: 0px;
 
 }
+.filters {
+    outline: 1px solid red;
+    margin-top: 96px;
+}
 .filters-title {
-
+    margin: 0px;
+    align-items: center;
 }
 .filters-list {
     outline: 1px solid red;
@@ -365,8 +382,6 @@ a {
     letter-spacing: 0.04em;
     font-style: normal;
     padding: 12px 24px;
-    
-
 }
 .filters-all {
     outline: 1px solid red;
@@ -384,46 +399,59 @@ a {
     color: var(--background-header);
     padding: 12px 24px;
 }
+.projects {
+    outline: 1px solid red;
+    margin-top: 72px;
+}
+.projects >h2 {
+    margin: 0px;
+}
+.projects-list {
+    list-style: none;
+}
 .projects-section {
     outline: 1px solid red;
     width: 1128px;
-    background-color: var(--cloud);
-    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 48px;
 }
-.projects-icons {
+.projects-card {
     outline: 1px solid red;
-    background-color: #4D5AE51A;
     box-sizing: border-box;
-    background: #FFFFFF;
-    border: 0.5px solid var(--cloud);
+    width: 360px;
+    background: var(--background-header);    
+    border: 0.5px solid #F4F4FD;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
-}
-.projects-list, .projects-list ul {
-    outline: 1px solid red;
     list-style: none;
+}
+
+.projects-cardcontent {
+    outline: 1px solid red;
+    padding: 0px 16px;
+    margin-top: 32px;
+    margin-bottom: 32px;
 }
 .projects-title {
     outline: 1px solid red;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
-    font-family: 'Roboto';
+    margin: 0px;
 }
 .projects-text {
     outline: 1px solid red;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.5;   
     letter-spacing: 0.02em;
     color: var(--slate);
-    font-family: 'Roboto';
-}
-.filters-button {
-    background-color: var(--ocean);
-    color: var(--background-header); */
-    
+    margin-top: 8px;
+    margin-bottom: 0px;
 }

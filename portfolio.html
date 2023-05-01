@@ -11,24 +11,24 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body class="body">
-    <!-- шапка -->
-        <header class="header">
-            <!-- навігація сайту -->
-            <nav class="header-nav">
-                <a class="logo" href="./index.html"><span class="accent">WEB</span>STUDIO</a>
-                    <ul class="nav">
-                        <li class=""><a href="./index.html">Studio</a></li>
-                        <li class=""><a href="./portfolio.html">Portfolio</a></li>
-                        <li class=""><a href="./contakts.html">Contakts</a></li>
-                    </ul>
-            </nav>            
-                    <!-- контактні дані -->
-                    <address class="adress">
-                        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-                        <a href="tel:+11(000)111-11-11">+11 (000) 111-11-11</a>
-                    </address>
-        </header>
-    <section class="filters">
+     <!-- шапка -->
+     <header class="header container" >
+        <!-- навігація сайту -->
+        <nav class="header-nav">
+            <a class="logo" href="./index.html"><span class="accent">WEB</span>STUDIO</a>
+                <ul class="nav">
+                    <li class=""><a href="./index.html">Studio</a></li>
+                    <li class=""><a href="./portfolio.html">Portfolio</a></li>
+                    <li class=""><a href="./contakts.html">Contakts</a></li>
+                </ul>
+        </nav>            
+                <!-- контактні дані -->
+                <address class="contacts">
+                    <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    <a href="tel:+11(000)111-11-11">+11 (000) 111-11-11</a>
+                </address>
+    </header>
+    <section class="filters container">
         <!-- кнопки фільтрації контенту -->
         <h2 class="filters-title">Button filters</h2>
         <ul class="filters-list">
@@ -40,61 +40,88 @@
             
         </ul>
     </section>    
-    <section>
+    <section class="projects container">
         <!-- наші проекти -->
-        <h2 class="projects">Our projects</h2>
+        <h2>Our projects</h2>
         <ul class="projects-list">
             <li>
                 <section class="projects-section">
                     <ul>
-                        <li class="projects-icons"><img src="./images/img11.jpg" alt="360">
-                           <h3 class="projects-title">Banking App Interface Concept</h3>
-                           <p class="projects-text">App</p>
+                        <li class="projects-card">
+                           <img class="projects-images" src="./images/img11.jpg" alt="360">
+                           <div class="projects-cardcontent">
+                               <h3 class="projects-title">Banking App Interface Concept</h3>
+                               <p class="projects-text">App</p>
+                           </div>
                         </li>
-                        <li class="projects-icons"><img src="./images/img12.jpg" alt="360">
-                           <h3 class="projects-title">Cashless Payment</h3>
-                           <p class="projects-text">Marketing</p>
-                        </li>
-                        <li class="projects-icons"><img src="./images/img13.jpg" alt="360">
-                           <h3 class="projects-title">Meditaion App</h3>
-                           <p class="projects-text">App</p>
-                        </li>
+                        <li class="projects-card">
+                            <img class="projects-images" src="./images/img12.jpg" alt="360">
+                            <div class="projects-cardcontent">
+                                <h3 class="projects-title">Cashless Payment</h3>
+                                <p class="projects-text">Marketing</p>
+                            </div>
+                         </li>
+                         <li class="projects-card">
+                            <img class="projects-images" src="./images/img13.jpg" alt="360">
+                            <div class="projects-cardcontent">
+                                <h3 class="projects-title">Meditaion App</h3>
+                                <p class="projects-text">App</p>
+                            </div>
+                         </li>
                     </ul>
                 </section>
             </li>
             <li>
                 <section class="projects-section">
                     <ul>
-                        <li class="projects-icons"><img src="./images/img14.jpg" alt="360">
-                           <h3 class="projects-title">Taxi Service</h3>
-                           <p class="projects-text">Marketing</p>
-                        </li>
-                        <li class="projects-icons"><img src="./images/img15.jpg" alt="360">
-                           <h3 class="projects-title">Screen Illustrations</h3>
-                           <p class="projects-text">Design</p>
-                        </li>
-                        <li class="projects-icons"><img src="./images/img16.jpg" alt="360">
-                           <h3 class="projects-title">Online Courses</h3>
-                           <p class="projects-text">Marketing</p>
-                        </li>
+                        <li class="projects-card">
+                            <img class="projects-images" src="./images/img14.jpg" alt="360">
+                            <div class="projects-cardcontent">
+                                <h3 class="projects-title">Taxi Service</h3>
+                                <p class="projects-text">Marketing</p>
+                            </div>
+                         </li>
+                         <li class="projects-card">
+                            <img class="projects-images" src="./images/img15.jpg" alt="360">
+                            <div class="projects-cardcontent">
+                                <h3 class="projects-title">Screen Illustrations</h3>
+                                <p class="projects-text">Design</p>
+                            </div>
+                         </li>
+                         <li class="projects-card">
+                            <img class="projects-images" src="./images/img16.jpg" alt="360">
+                            <div class="projects-cardcontent">
+                                <h3 class="projects-title">Online Courses</h3>
+                                <p class="projects-text">Marketing</p>
+                            </div>
+                         </li>
                     </ul>
                 </section>
             </li>
             <li>
                 <section class="projects-section">
                     <ul>
-                        <li class="projects-icons"><img src="./images/img17.jpg" alt="360">
-                           <h3 class="projects-title">Instagram Stories Concept</h3>
-                           <p class="projects-text">Design</p>
-                        </li>   
-                        <li class="projects-icons"><img src="./images/img18.jpg" alt="360">
-                           <h3 class="projects-title">Organic Food</h3>
-                           <p class="projects-text">Web Site</p>
-                        </li>
-                        <li class="projects-icons"><img src="./images/img19.jpg" alt="360">
-                           <h3 class="projects-title">Fresh Coffee</h3>
-                           <p class="projects-text">Web Site</p>
-                        </li>
+                        <li class="projects-card">
+                            <img class="projects-images" src="./images/img17.jpg" alt="360">
+                            <div class="projects-cardcontent">
+                                <h3 class="projects-title">Instagram Stories Concept</h3>
+                                <p class="projects-text">Design</p>
+                            </div>
+                         </li>
+                         <li class="projects-card">
+                            <img class="projects-images" src="./images/img18.jpg" alt="360">
+                            <div class="projects-cardcontent">
+                                <h3 class="projects-title">Organic Food</h3>
+                                <p class="projects-text">Web Site</p>
+                            </div>
+                         </li>
+                         <li class="projects-card">
+                            <img class="projects-images" src="./images/img19.jpg" alt="360">
+                            <div class="projects-cardcontent">
+                                <h3 class="projects-title">Fresh Coffee</h3>
+                                <p class="projects-text">Web Site</p>
+                            </div>
+                         </li>
                     </ul>
                 </section>
             </li>
@@ -102,7 +129,7 @@
 
     </section>
     <!-- подвал -->
-    <footer class="footer">
+    <footer class="footer container">
         <a class="footer-logo" href="./index.html">
             <span class="accent">WEB</span>STUDIO
         </a>
