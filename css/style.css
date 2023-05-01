@@ -24,16 +24,19 @@ a {
     text-decoration: none;
 }
 .header {
+    outline: 1px solid red;
+    width: 1440px;
+    padding: 24px 156px;
     background-color: var(--background-header);
 }
 
 .team {
+    outline: 1px solid red;
     background-color: var(--cloud);
 }
-.body {
-    background-color: var(--background-body);
-}
+
 .logo {
+    outline: 1px solid red;
     text-decoration: none;
     font-family: 'Raleway';
     font-style: normal;
@@ -48,6 +51,8 @@ a {
     color: var(--iris);
 }
 .nav {
+    padding: 0px;
+    outline: 1px solid red;
     list-style: none;
     color: var(--navy-blue);
     font-family: 'Roboto';
@@ -57,7 +62,8 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.adress a {
+.contacts >a {
+    outline: 1px solid red;
     color: var(--slate);    
     font-family: 'Roboto';
     font-style: normal;
@@ -67,21 +73,29 @@ a {
     letter-spacing: 0.02em;
 }
 .hero {
-
+    width: 1440px;
+    height: 603px;
+    background-color: var(--navy-blue);
+    outline: 1px solid red;
+    padding: 192px 474px;
 }
 .hero-title {
+    outline: 1px solid red;
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--background-header);
+    margin: 0px;
 }
 .hero-button {
-    flex-direction: row;
-    align-items: flex-start;
+    outline: 1px solid red;
+    margin-top: 48px;
+    /* flex-direction: row; */
+    /* align-items: flex-start; */
     padding: 16px 32px;
     color: var(--background-header);
     background: var(--iris);
@@ -89,16 +103,28 @@ a {
     border-radius: 4px;
 }
 .advantage {
+    outline: 1px solid red;
+    width: 1128px;
+    margin: 120px 156px 0px;
+    padding: 0;
+
 }
-.list {
+.advantage-list {
+    outline: 1px solid red;
     list-style: none;
+    width: 264px;
+}
+.advantage-list >ul {
+    margin: 0px;
 }
 .advantage-icon {
+    outline: 1px solid red;
     width: 264px;
     background: var(--cloud);
     border-radius: 4px;
 }
 .advantage-title {
+    outline: 1px solid red;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -106,8 +132,11 @@ a {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
+    margin-top: 8px;
+    margin-bottom: 0px;
 }
 .advantage-text {
+    outline: 1px solid red;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -115,11 +144,24 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--slate);
+    margin-top: 8px;
+    margin-bottom: 0px;
 }
 .doing {
+    outline: 1px solid red;
     background-color: var(--background-body);
+    margin-top: 120px;
+    margin-left: 156px;
+    margin-right: 156px;
+    width: 1128px;
+}
+.doing >ul {
+    margin: 0px;
+    padding: 0px;
 }
 .doing-title {
+    outline: 1px solid red;
+    margin: 0px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 600;
@@ -129,10 +171,27 @@ a {
     letter-spacing: 0.02em;
     color: var(--navy-blue);
 }
+.doing-list {
+    list-style: none;
+    width: 360px;
+
+} 
 .team {
+    outline: 1px solid red;
+    width: 1440px;
+    padding: 120px 156px;
     background-color: var(--cloud);
+    margin-top: 120px;
+}
+.team >ul {
+    outline: 1px solid red;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 72px;
 }
 .team-title {
+    outline: 1px solid red;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 600;
@@ -141,11 +200,30 @@ a {
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
+    padding: 0px;
+    margin: 0px;
+}
+.team-list {
+    align-items: center;
+    padding: 0px 0px 32px;
+    background: var(--background-header);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+    outline: 1px solid red;
+    list-style: none;
 }
 .team-images {
+    outline: 1px solid red;
 
 }
+.team-card {
+    outline: 1px solid red;
+    padding: 0px;
+    width: 232px;
+    margin: 32px 16px;
+}
 .team-name {
+    outline: 1px solid red;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -154,8 +232,11 @@ a {
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
+    padding: 0px;
+    margin: 0px;
 }
 .team-prof {
+    outline: 1px solid red;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -164,16 +245,26 @@ a {
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--slate);
+    margin-top: 8px;
+    margin-bottom: 0px;
 }
 .team-nav {
+    outline: 1px solid red;
     align-items: center;
     padding: 4px 0px;
+    margin-top: 8px;
+    list-style: none;
 }
 .clients {
+    outline: 1px solid red;
     background-color: var(--background-body);
     width: 1128px;
+    padding: 0px;
+    margin: 120px 156px 0px;
+
 }
 .clients-title {
+    outline: 1px solid red;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -182,18 +273,36 @@ a {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--navy-blue);
+    margin: 0px;
 }
 .clients-list {
+    outline: 1px solid red;
     list-style: none;
+    padding: 0px;
+    margin-top: 72px;
+    margin-bottom: 0px;
 }
 .clients-icon {
+    width: 168px;
+    outline: 1px solid red;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
     
 }
 .footer {
+    outline: 1px solid red;
     background-color: var(--navy-blue);
     width: 1440px;
+    margin-top: 120px;
+    padding: 100px 156px;
+}
+.footer-text {
+    outline: 1px solid red;
+    width: 264px;
+
 }
 .footer-logo {
+    outline: 1px solid red;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
@@ -204,6 +313,7 @@ a {
     color: var(--cloud);
 }
 .address {
+    outline: 1px solid red;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -213,6 +323,7 @@ a {
     color: var(--CORNFLOWER);
 }
 .social {
+    outline: 1px solid red;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 600;
@@ -220,27 +331,28 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--background-header);
+    margin: 0px;
 }
 .footer-nav {
+    outline: 1px solid red;
     list-style: none;
-}
-.filters {
+    padding: 0px;
+    margin-top: 16px;
+    margin-bottom: 0px;
 
 }
-/* .filters-title { */
+.filters-title {
 
 }
 .filters-list {
+    outline: 1px solid red;
     list-style: none;
-}
-
- .filters-marketing {
- 
 }
 .filters-marketing,
 .filters-design,
 .filters-app,
 .filters-website {
+    outline: 1px solid red;
     color: var(--iris);
     background-color: var(--cloud);
     border-radius: 4px;
@@ -257,8 +369,9 @@ a {
 
 }
 .filters-all {
+    outline: 1px solid red;
     background: var(--ocean);
-    /* box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12); */
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
     font-family: 'Roboto';
     font-style: normal;
@@ -269,13 +382,16 @@ a {
     text-align: center;
     letter-spacing: 0.04em;
     color: var(--background-header);
+    padding: 12px 24px;
 }
 .projects-section {
+    outline: 1px solid red;
     width: 1128px;
     background-color: var(--cloud);
     
 }
 .projects-icons {
+    outline: 1px solid red;
     background-color: #4D5AE51A;
     box-sizing: border-box;
     background: #FFFFFF;
@@ -283,9 +399,11 @@ a {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .projects-list, .projects-list ul {
+    outline: 1px solid red;
     list-style: none;
 }
 .projects-title {
+    outline: 1px solid red;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -295,6 +413,7 @@ a {
     font-family: 'Roboto';
 }
 .projects-text {
+    outline: 1px solid red;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
