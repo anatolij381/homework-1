@@ -227,23 +227,22 @@ a {
 .filters {
 
 }
-.filters-title {
+/* .filters-title { */
 
 }
 .filters-list {
     list-style: none;
 }
 
-.filters-website,
-.filters-app,
+ .filters-marketing {
+ 
+}
+.filters-marketing,
 .filters-design,
-.filters-marketing {
-    width: ;
-    box-sizing: border-box;
-    align-items: center;
-    padding: 12px 24px;
-    background: var(--cloud);
-    border: 1px solid var(--CORNFLOWER);
+.filters-app,
+.filters-website {
+    color: var(--iris);
+    background-color: var(--cloud);
     border-radius: 4px;
     font-family: 'Roboto';
     font-weight: 600;
@@ -252,13 +251,14 @@ a {
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
-    color: var(--iris);
     font-style: normal;
+    padding: 12px 24px;
+    
+
 }
 .filters-all {
-    width: ;
     background: var(--ocean);
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    /* box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12); */
     border-radius: 4px;
     font-family: 'Roboto';
     font-style: normal;
@@ -269,7 +269,6 @@ a {
     text-align: center;
     letter-spacing: 0.04em;
     color: var(--background-header);
-    padding: 12px 24px;
 }
 .projects-section {
     width: 1128px;
@@ -304,4 +303,8 @@ a {
     color: var(--slate);
     font-family: 'Roboto';
 }
-
+.filters-button {
+    background-color: var(--ocean);
+    color: var(--background-header); */
+    
+}
