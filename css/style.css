@@ -99,15 +99,10 @@ a {
 }
 .hero-button {
     outline: 1px solid red;
-    margin-top: 48px;
-    /* flex-direction: row; */
-    /* align-items: flex-start; */
-    padding: 16px 32px;
-    color: var(--background-header);
-    background: var(--iris);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
+   
 }
+
+
 .advantage {
     outline: 1px solid red;
     width: 1128px;
