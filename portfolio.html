@@ -10,28 +10,28 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
+<body class="body">
      <!-- шапка -->
      <header class="header container" >
         <!-- навігація сайту -->
         <nav class="header-nav">
             <a class="logo" href="./index.html"><span class="accent">WEB</span>STUDIO</a>
-                <ul class="nav">
-                    <li class=""><a href="./index.html">Studio</a></li>
-                    <li class=""><a href="./portfolio.html">Portfolio</a></li>
-                    <li class=""><a href="./contakts.html">Contakts</a></li>
-                </ul>
+            <ul class="nav">
+                <li class=""><a href="./index.html">Studio</a></li>
+                <li class=""><a href="./portfolio.html">Portfolio</a></li>
+                <li class=""><a href="./contakts.html">Contakts</a></li>
+            </ul>
         </nav>            
-                <!-- контактні дані -->
-                <address class="contacts">
-                    <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-                    <a href="tel:+11(000)111-11-11">+11 (000) 111-11-11</a>
-                </address>
+        <!-- контактні дані -->
+        <address class="contacts">
+            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a href="tel:+11(000)111-11-11">+11 (000) 111-11-11</a>
+        </address>
     </header>
-    <section class="filters">
+    <section class="filters container">
         <!-- кнопки фільтрації контенту -->
         <h2 class="filters-title">Button filters</h2>
-        <ul class="filters-list container">
+        <ul class="filters-list">
             <li><button class="filters-all">All</button></li>
             <li><button class="filters-website">Web Site</button></li>
             <li><button class="filters-app">App</button></li>
@@ -40,10 +40,10 @@
             
         </ul>
     </section>    
-    <section class="projects">
+    <section class="projects container">
         <!-- наші проекти -->
         <h2>Our projects</h2>
-        <ul class="projects-list container">
+        <ul class="projects-list">
             <li>
                 <section class="projects-section">
                     <ul>
@@ -129,21 +129,28 @@
 
     </section>
     <!-- подвал -->
-    <footer class="footer container">
-        <a class="footer-logo" href="./index.html">
-            <span class="accent">WEB</span>STUDIO
-        </a>
-        <!-- поштова адреса -->
-        <address class="address" lang="uk-ua">м. Київ,<br> Бульвар Лесі Українки, б. 26,<br> 4й поверх офіс 427</address>
-          <div>
-            <h3 class="social">Social media</h3>
-            <ul class="footer-nav">
-                <li><a href=""><img src="./images/instagram-2.svg" alt="instagram"></a></li>
-                <li><a href=""><img src="./images/facebook-2.svg" alt="facebook"></a></li>
-                <li><a href=""><img src="./images/twitter-2.svg" alt="twitter"></a></li>
-                <li><a href=""><img src="./images/linkedin-2.svg" alt="linkedin"></a></li>
-            </ul>
-          </div>
-    </footer>
+    <div class="section">
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-text">
+                    <a class="footer-logo" href="./index.html">
+                        <span class="accent">WEB</span>STUDIO
+                    </a>
+                    <!-- поштова адреса -->
+                    <address class="address" lang="uk-ua">м. Київ,<br> Бульвар Лесі Українки, б. 26,<br> 4й поверх офіс 427</address>
+                </div>
+                
+                  <div>
+                    <h3 class="social">Social media</h3>
+                    <ul class="footer-nav">
+                        <li><a href=""><img src="./images/instagram-2.svg" alt="instagram"></a></li>
+                        <li><a href=""><img src="./images/facebook-2.svg" alt="facebook"></a></li>
+                        <li><a href=""><img src="./images/twitter-2.svg" alt="twitter"></a></li>
+                        <li><a href=""><img src="./images/linkedin-2.svg" alt="linkedin"></a></li>
+                    </ul>
+                  </div>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
