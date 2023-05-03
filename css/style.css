@@ -16,7 +16,6 @@ html {
 .section {
     background-color: var(--background-header);
     padding-top: 120px;
-    /* padding-bottom: 120px; */
 }
 :root {
     --background-header: #ffffff;
@@ -84,6 +83,7 @@ a {
     letter-spacing: 0.02em;
 }
 .hero {
+    display: inline-block;
     text-align: center;
     padding-top: 192px; 
     padding-bottom: 192px;
@@ -101,7 +101,6 @@ a {
     font-weight: 500;
     font-size: 56px;
     line-height: 1.07;
-    text-align: center;
     letter-spacing: 0.02em;
     color: var(--background-header);
     margin: 0px auto;
@@ -120,14 +119,12 @@ a {
     font-weight: 600;
     font-size: 16px;
     line-height: 1.18;
-    align-items: center;
     letter-spacing: 0.04em;
     font-style: normal;
     color: var(--background-header);
 }
 .advantage {
     outline: 1px solid red;
-    /* margin-top: 120px; */
     margin-bottom: 0px;
 }
 .advantage h2 {
@@ -185,7 +182,6 @@ a {
 .doing {
     outline: 1px solid red;
     background-color: var(--background-body);
-    /* margin-top: 120px; */
 }
 .doing >ul {
     margin: 0px;
@@ -197,11 +193,11 @@ a {
     width: 360px;
 } 
 .team {
+    display: inline-block;
     outline: 1px solid red;
     padding-top: 120px;
     padding-bottom: 120px;
     background-color: var(--cloud);
-    /* margin-top: 120px; */
 }
 .team >ul {
     outline: 1px solid red;
@@ -240,7 +236,6 @@ a {
 .clients {
     outline: 1px solid red;
     background-color: var(--background-body);
-    /* margin-top: 120px; */
 }
 .title {
     outline: 1px solid red;
@@ -268,9 +263,9 @@ a {
     border-radius: 4px;
   }
 .footer {
+    display: inline-block;
     outline: 1px solid red;
     background-color: var(--navy-blue);
-    /* margin-top: 120px; */
     padding-top: 100px;
     padding-bottom: 100px;
 }
