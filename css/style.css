@@ -72,6 +72,10 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+.contacts {
+    display: flex;
+    gap: 40px;
+}
 .contacts >a {
     outline: 1px solid red;
     color: var(--slate);    
@@ -293,6 +297,7 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--CORNFLOWER);
+    margin-top: 16px;
 }
 .social {
     outline: 1px solid red;
@@ -307,14 +312,21 @@ a {
 }
 .footer-nav {
     outline: 1px solid red;
+    display: flex;
     list-style: none;
     padding: 0px;
     margin-top: 16px;
     margin-bottom: 0px;
 }
+.footer-flex {
+    display: flex;
+    gap: 120px;
+}
 .filters {
     outline: 1px solid red;
     margin-top: 96px;
+    width: 586px;
+    padding: 0;
 }
 .filters-title {
     display: none;
@@ -413,4 +425,30 @@ a {
     color: var(--slate);
     margin-top: 8px;
     margin-bottom: 0px;
+}
+.card-set {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: calc((100%-96)/5);
+    flex-direction: row;
+    /* align-items: flex-start; */
+    padding: 0px;
+}
+.menunav {
+    display: flex;
+    gap: 40px;
+}
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.header-nav-flex {
+    display: flex;
+    gap: 76px;
+
+}
+.main-flex {
+    display: flex;
+    gap: 24px;
 }
