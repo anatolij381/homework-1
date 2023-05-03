@@ -83,7 +83,7 @@ a {
     letter-spacing: 0.02em;
 }
 .hero {
-    display: inline-block;
+    /* display: inline-block; */
     text-align: center;
     padding-top: 192px; 
     padding-bottom: 192px;
@@ -193,7 +193,7 @@ a {
     width: 360px;
 } 
 .team {
-    display: inline-block;
+    /* display: inline-block; */
     outline: 1px solid red;
     padding-top: 120px;
     padding-bottom: 120px;
@@ -263,7 +263,7 @@ a {
     border-radius: 4px;
   }
 .footer {
-    display: inline-block;
+    /* display: inline-block; */
     outline: 1px solid red;
     background-color: var(--navy-blue);
     padding-top: 100px;
