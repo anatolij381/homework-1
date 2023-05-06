@@ -35,6 +35,7 @@ body {
     font-family: Roboto, sans-serif;
     background-color: var(--background-header);
     color: var(--slate);
+    width: 1440px;
 }
 a {
     text-decoration: none;
