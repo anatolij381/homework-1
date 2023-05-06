@@ -94,8 +94,8 @@ a {
     padding-bottom: 192px;
     background-color: var(--navy-blue);
     /* outline: 1px solid red; */
-    background: #2E2F42;
-opacity: 0.7;
+    background: var(--navy-blue);
+    opacity: 0.7;
     background-image: url(../images/people-office1.jpg);
 }
 .hero-content {    
@@ -189,11 +189,12 @@ opacity: 0.7;
 }
 .doing {
     /* outline: 1px solid red; */
-    background-color: var(--background-body);
+    /* background-color: var(--background-body); */
 }
 .doing >ul {
     margin: 0px;
     padding: 0px;
+    margin-top: 72px;
 }
 .doing-list {
     /* outline: 1px solid red; */
@@ -245,7 +246,7 @@ opacity: 0.7;
 }
 .clients {
     /* outline: 1px solid red; */
-    background-color: var(--background-body);
+    /* background-color: var(--background-body); */
 }
 .title {
     /* outline: 1px solid red; */
@@ -361,6 +362,8 @@ opacity: 0.7;
     letter-spacing: 0.04em;
     font-style: normal;
     padding: 12px 24px;
+    border: 1px solid var(--CORNFLOWER);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .filters-all {
     /* outline: 1px solid red; */
@@ -400,7 +403,7 @@ opacity: 0.7;
     box-sizing: border-box;
     width: 360px;
     background: var(--background-header);    
-    border: 0.5px solid #F4F4FD;
+    border: 0.5px solid var(--cloud);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
     list-style: none;
 }
