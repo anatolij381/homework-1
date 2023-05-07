@@ -89,6 +89,7 @@ a {
 }
 .hero {
     /* display: inline-block; */
+    max-width: 1440px;
     text-align: center;
     padding-top: 192px; 
     padding-bottom: 192px;
