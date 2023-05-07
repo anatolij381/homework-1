@@ -153,11 +153,26 @@ a {
 .advantage-list >ul {
     margin: 0px;
 }
-.advantage-icon {
-    /* outline: 1px solid red; */
-    width: 264px;
-    background: var(--cloud);
+.advantage-list::before {
+    content: "";
+    display: block;
+    height: 112px;
     border-radius: 4px;
+    background-color: var(--cloud);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.antenna::before {
+    background-image: url(../images/antenna1.svg);
+}
+.clock::before {
+    background-image: url(../images/clock1.svg);
+}
+.diagram::before {
+    background-image: url(../images/diagram1.svg);
+}
+.astronaut::before {
+    background-image: url(../images/astronaut1.svg);
 }
 .team-name,
 .advantage-title {
@@ -272,9 +287,30 @@ a {
 }
 .clients-icon {
     width: 168px;
+    height: 88px;
     /* outline: 1px solid red; */
     border: 1px solid #8E8F99;
     border-radius: 4px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .clients-icon:nth-child(1) {
+    background-image: url(../images/Logo1.svg);
+  }
+  .clients-icon:nth-child(2) {
+    background-image: url(../images/Logo2.svg);
+  }
+  .clients-icon:nth-child(3) {
+    background-image: url(../images/Logo3.svg);
+  }
+  .clients-icon:nth-child(4) {
+    background-image: url(../images/Logo4.svg);
+  }
+  .clients-icon:nth-child(5) {
+    background-image: url(../images/Logo5.svg);
+  }
+  .clients-icon:nth-child(6) {
+    background-image: url(../images/Logo6.svg);
   }
 .footer {
     /* display: inline-block; */
