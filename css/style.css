@@ -138,41 +138,28 @@ a {
     /* outline: 1px solid red; */
     margin-bottom: 0px;
 }
+.main-flex {
+    display: flex;
+    gap: 24px;
+}
 .advantage h2 {
     display: none;
 }
 .advantage h2, ul {
     margin: 0px;
     padding: 0px;
+    list-style: none;
 }
 .advantage-list {
-    /* outline: 1px solid red; */
-    list-style: none;
-    width: 264px;
-}
-.advantage-list >ul {
-    margin: 0px;
-}
-.advantage-list::before {
-    content: "";
     display: block;
+    width: 264px;
     height: 112px;
+    padding-left: 100px;
+    padding-right: 100px;
     border-radius: 4px;
     background-color: var(--cloud);
     background-repeat: no-repeat;
     background-position: center;
-}
-.antenna::before {
-    background-image: url(../images/antenna1.svg);
-}
-.clock::before {
-    background-image: url(../images/clock1.svg);
-}
-.diagram::before {
-    background-image: url(../images/diagram1.svg);
-}
-.astronaut::before {
-    background-image: url(../images/astronaut1.svg);
 }
 .team-name,
 .advantage-title {
@@ -285,7 +272,7 @@ a {
     margin-top: 72px;
     margin-bottom: 0px;
 }
-.clients-icon {
+.clients-card {
     width: 168px;
     height: 88px;
     /* outline: 1px solid red; */
@@ -293,25 +280,12 @@ a {
     border-radius: 4px;
     background-repeat: no-repeat;
     background-position: center;
-  }
-  .clients-icon:nth-child(1) {
-    background-image: url(../images/Logo1.svg);
-  }
-  .clients-icon:nth-child(2) {
-    background-image: url(../images/Logo2.svg);
-  }
-  .clients-icon:nth-child(3) {
-    background-image: url(../images/Logo3.svg);
-  }
-  .clients-icon:nth-child(4) {
-    background-image: url(../images/Logo4.svg);
-  }
-  .clients-icon:nth-child(5) {
-    background-image: url(../images/Logo5.svg);
-  }
-  .clients-icon:nth-child(6) {
-    background-image: url(../images/Logo6.svg);
-  }
+    padding: 16px 32px;
+  } 
+  .clients-icon {
+    width: 104px;
+    height: 56px;
+  } 
 .footer {
     /* display: inline-block; */
     /* outline: 1px solid red; */
@@ -496,8 +470,4 @@ a {
     display: flex;
     gap: 76px;
 
-}
-.main-flex {
-    display: flex;
-    gap: 24px;
 }
