@@ -42,7 +42,7 @@ a {
 }
 .header {
     padding-top: 24px;
-    padding-bottom: 24px;
+    /* padding-bottom: 24px; */
     /* outline: 1px solid red; */
     background-color: var(--background-header);
 }
@@ -61,6 +61,38 @@ a {
 .accent {
     color: var(--iris);
 }
+ .menunav .activ {
+    opacity: 1;
+    color: var(--ocean);
+}
+.menunav {
+    display: flex;
+    gap: 40px;
+}
+.menunav-studio,
+.menunav-portfolio,
+.menunav-contacts {
+    position: relative;
+    height: 52px;
+}
+.menunav-studio:hover .nav-studio {
+    opacity: 1;
+}
+.menunav-studio:hover .nav {
+    color: var(--ocean);
+}
+.menunav-portfolio:hover .nav-portfolio {
+    opacity: 1;
+}
+.menunav-portfolio:hover .nav {
+    color: var(--ocean);
+}
+.menunav-contacts:hover .nav-contacts {
+    opacity: 1;
+}
+.menunav-contacts:hover .nav {
+    color: var(--ocean);
+}
 .nav {
     padding: 0px;
     /* outline: 1px solid red; */
@@ -72,6 +104,27 @@ a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding-bottom: 48px;
+}
+.line {
+    position: absolute;
+    height: 4px;
+    left: 0;
+    top: 48px;
+    
+    background: var(--ocean);
+    border-radius: 2px;
+    opacity: 0;
+    
+}
+.nav-studio {
+    width: 48px;
+}
+.nav-portfolio {
+    width: 66px;
+}
+.nav-contacts {
+    width: 67px;
 }
 .contacts {
     display: flex;
@@ -86,6 +139,9 @@ a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+.contacts-mail:hover {
+    color: var(--ocean);
 }
 .hero {
     /* display: inline-block; */
@@ -133,6 +189,9 @@ a {
     letter-spacing: 0.04em;
     font-style: normal;
     color: var(--background-header);
+}
+.hero-button:active {
+    background-color: var(--ocean);
 }
 .advantage {
     /* outline: 1px solid red; */
@@ -457,10 +516,7 @@ a {
     /* align-items: flex-start; */
     padding: 0px;
 }
-.menunav {
-    display: flex;
-    gap: 40px;
-}
+
 .header-flex {
     display: flex;
     justify-content: space-between;
