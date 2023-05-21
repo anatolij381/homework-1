@@ -389,6 +389,9 @@ a {
     color: var(--CORNFLOWER);
     margin-top: 16px;
 }
+.soc {
+    margin-left: 120px;
+}
 .social {
     /* outline: 1px solid red; */
     font-family: 'Roboto';
@@ -418,9 +421,72 @@ a {
 .nav-social:focus {
     fill: #31D0AA;
 }
+.sub {
+    margin-left: 80px;
+}
+.subscribe {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;    
+    letter-spacing: 0.02em;
+        
+    color: var(--background-header);
+    margin: 0;
+}
+.subscribe-flex {
+    display: flex;
+    padding-top: 16px;
+    gap: 24px;
+}
+.subscribe-button {
+    /* display: block; */
+    font-style: normal;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 2;    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    
+    color: var(--background-header);
+    width: 264px;
+    height: 40px;
+    padding-left: 16px;
+    border: 1px solid var(--background-header);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+
+}
+.subscribe-button-subscribe {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+        
+    color: var(--background-header);
+    flex-direction: row;
+    justify-content: center;
+    padding: 8px 24px;
+    gap: 16px;
+    background: var(--iris);
+    border-radius: 4px;
+}
+.subscribe-button-subscribe::after {
+    content: url(/images/icon_send.svg);
+    width: 24px;
+    height: 20px;
+}
 .footer-flex {
     display: flex;
-    gap: 120px;
 }
 .filters {
     /* outline: 1px solid red; */
