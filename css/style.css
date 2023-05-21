@@ -26,6 +26,7 @@ html {
     --CORNFLOWER: #E7E9FC;
     --iris: #4D5AE5;
     --ocean: #404BBF;
+    --LIGHT_SLATE: #8e8f99;
 /* h2,h3, NAV - NAVY BLUE */
 /* ADRESS,P - SLATE */
 /* WEB, button - IRIS */
@@ -571,9 +572,16 @@ a {
     box-sizing: border-box;
     width: 360px;
     background: var(--background-header);    
-    border: 0.5px solid var(--cloud);
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
-    list-style: none;
+    border: 1px solid var(--CORNFLOWER);
+}
+.projects-card:hover,
+.projects-card:focus {
+    border: 1px solid var(--cloud);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.projects-images {
+    display: inline-block;
+
 }
 .projects-cardcontent {
     /* outline: 1px solid red; */
@@ -654,4 +662,165 @@ a {
     gap: 76px;
 
 }
+.backdrop {
+    position: fixed;
+    background: rgba(46, 47, 66, 0.4);
+    width: 100%;
+    height: 100%;   
+    top: 0;
+    left: 0;
+}
+.backdrop.is-hidden {
+    opacity: 0;
+}
+.modal {
+    position: absolute;
+    width: 408px;
+    height: 584px;
+    left: 516px;
+    top: 80px;
+    background-color: #FCFCFC;
+    border-radius: 4px;
+    padding: 24px;
+    
+    filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.2)) drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.12)) drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.14));
+}
+.clic {
+    display: block;
+    margin-left: auto;
+}
+.modal-title {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;    
+    text-align: center;
+    letter-spacing: 0.02em;
+    
+    color: var(--navy-blue);
+    margin-top: 24px;
+    margin-bottom: 0;
+}
+.modal-name,
+.modal-phone,
+.modal-email,
+.modal-comment {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;    
+    letter-spacing: 0.04em;
+    
+    color: var(--LIGHT_SLATE);
+    margin-top: 8px;
+    margin-bottom: 0;
+    
+}
+.modal .modal-name {
+    margin-top: 16px;
+}
+.modal .modal-name-button {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    border: 1px solid var(--iris);
+}
+.modal-name-button,
+.modal-phone-button,
+.modal-email-button {        
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    
+    margin-top: 4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+}
+.modal-comment-button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;    
+    letter-spacing: 0.04em;
+    
+    /* NAVY BLUE modal */
+    
+    color: rgba(46, 47, 66, 0.4);
+    width: 360px;
+    height: 120px;
+    padding-top: 8px;
+    padding-left: 16px;
+    left: 0px;
+    top: 216px;
+    
+    /* NAVY BLUE modal */
+    
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+}
+.modal-comment-button p {
+    margin: 0;
+}
+   
+.icon-line {
+    color: var(--navy-blue);
+}
+.modal-flex {
+    margin-top: 16px;
+    display: flex;
+    gap: 8px;
+    align-items: flex-end;
+}
+.modal-checkbox {
+    box-sizing: border-box;
+    
+    width: 16px;
+    height: 16px;
+    
+    /* NAVY BLUE modal */
+    
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 2px;
+}
+.modal-flex-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;    
+    letter-spacing: 0.04em;
+    margin: 0;
+    
+    color: var(--LIGHT_SLATE);
+}
+.modal-polici {
+    color: var(--iris);
+    text-decoration:underline;
+}
+.send {
+    width: 169px;
+    height: 56px;
+    margin-top: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px 32px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    
+    display: flex;
+    justify-content: center;
+    letter-spacing: 0.04em;
+    
+    color: var(--background-header);
+            
+    background: var(--iris);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
 
